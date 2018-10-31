@@ -1,0 +1,229 @@
+body, html {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section h1 {
+	padding-bottom: 20px;
+}
+header {
+	color: white;
+}
+nav {
+	background-color: #011729;
+	top: 0;
+	border-bottom: 1px solid rgba(255,0,0,0.4);
+}
+nav a {
+	color: white;
+}
+header button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#hello_part {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+#description_job {
+	font-size: 3em;
+}
+#description_name {
+	font-size: 2em;
+}
+#description p {
+	font-weight: 200;
+	margin-bottom: 0;
+}
+#description_job::after {
+	content: '';
+    display: block;
+    border-top: 4px solid red;
+    width: 70%;
+    max-width: 275px;
+    position: relative;
+    top:-5px;
+}
+#description span {
+	font-weight: 600;
+}
+#description button {
+	background-color: red;
+	border-color: red;
+}
+
+/* Section skills */
+
+#skills {
+	background: linear-gradient(
+      rgba(254, 247, 247, 0.71), 
+      rgb(255, 255, 255)
+    ),url(../images/coding-office.jpg);
+    background-size: cover;
+}
+#codes {
+	display: flex;
+}
+#codes1, #codes2 {
+	margin: auto;
+}
+.languages {
+	width: 120px;
+	height: 120px;
+	margin: 0 30px 30px 0;
+}
+#logo_html {
+	position: relative;
+	width: 97%;
+	top: 2px;
+	left: 1px;
+}
+#logo_js {
+	position: relative;
+	width: 74%;
+	left: 16px;
+	top: -2px;
+}
+#logo_css {
+	position: relative;
+	width: 68%;
+	left: 19px;
+	top: 2px;
+}
+#logo_sql {
+	position: relative;
+	width: 87%;
+	left: 8px;
+	top: 3px;
+}
+#logo_php {
+	position: relative;
+	width: 130px;
+	left: 0px;
+	top: -5px;
+}
+#logo_w3c {
+	position: relative;
+	width: 84%;
+	left: 11px;
+	top: 18px;
+}
+#photo_container {
+	text-align: center;
+}
+#photo_container img {
+	width: 250px;
+	border-radius: 50%;
+	border: 3px solid red;
+	background-color: #011729;
+}
+
+#skills p {
+	font-size: 120%;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+/* Section works */
+
+#works, footer { 
+	background-color: #011729;
+	color: white;
+}
+
+#works h3 {
+	border-bottom: 1px solid rgba(255,0,0,0.4);
+	padding-bottom: 10px;
+}
+
+#works .col-md-3 {
+	border: 1px solid red;
+	height: 200px;
+}
+
+#works img {
+	border-radius: 5px;
+	box-shadow: 5px 5px rgba(255,0,0,0.4);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#works p {
+	margin-top: 10px;
+}
+
+#works .row {
+	margin-bottom: 30px;
+	background-color: rgba(205,229,249,0.2);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* Section contact */
+#contact {
+	background: linear-gradient(
+      rgba(254, 247, 247, 0.85), 
+      rgb(255, 255, 255)
+    ),url(../images/code.jpg);
+    background-size: cover;
+}
+#contact table {
+	margin: auto;
+	width: 300px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+}
+
+textarea {
+	height: 300px;
+}
+#media {
+	display: flex;
+	flex-direction: column;
+}
+@media all and (max-width: 767px ){
+	#media {
+		text-align: center;
+	}
+}
+#linkedin {
+	width: 60px;
+}
+#github {
+	width: 180px;
+	position: relative;
+}
+#logo-cv {
+	width: 85px;
+	position: relative;
+	left: -11px;
+}
+#media a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* Section footer */
+
+footer {
+	margin : 0;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+	font-size: 80%;
+}
