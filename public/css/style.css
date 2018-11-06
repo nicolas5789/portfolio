@@ -17,7 +17,7 @@ section {
 section h1 {
 	padding-bottom: 20px;
 }
-header {
+header, #visual_hello {
 	color: white;
 }
 nav {
@@ -28,7 +28,10 @@ nav {
 nav a {
 	color: white;
 }
-header button {
+#visual_hello {
+	padding: 0;
+}
+#visual_hello button {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
