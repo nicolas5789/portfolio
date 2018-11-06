@@ -17,7 +17,7 @@ section {
 section h1 {
 	padding-bottom: 20px;
 }
-header, #visual_hello {
+header, #hello_part {
 	color: white;
 }
 nav {
@@ -35,10 +35,7 @@ nav a {
 
 /* Section Hello */
 
-#visual_hello {
-	padding: 0;
-}
-#visual_hello button {
+#hello_part button {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }

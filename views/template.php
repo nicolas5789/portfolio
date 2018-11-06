@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
-<!-- H         H    EEEEEEEEEEE   L             L                  OOO         !     -->
-<!-- H 		   H	E	          L             L                 O   O        !     -->
-<!-- H 		   H	E	          L             L                O     O       !     -->
-<!-- H 		   H	E	          L             L               O       O      !     -->
-<!-- H 		   H	E	          L             L              O         O     !     -->
-<!-- HHHHHHHHHHH 	EEEEEEEEEE    L             L             O           O    !     -->
-<!-- H 		   H	E             L             L              O         O     !     -->
-<!-- H 		   H	E             L             L               O       O      !     -->
-<!-- H 		   H	E             L             L                O     O       !     -->
-<!-- H 		   H	E             L             L                 O   O              -->
-<!-- H         H    EEEEEEEEEE    LLLLLLLLLL    LLLLLLLLLL		   OOO	       O     -->
-<!--																				 -->
-<!--					I'm available to work, 										 -->
-<!-- 		if you're interested, send me a message at nicolas5789@gmail.com         -->
-
-
 <head>
 	<meta charset="utf-8">
+	<!-- H         H	EEEEEEEEEEE   L             L                  OOO         !     -->
+	<!-- H         H	E	          L             L                 O   O        !     -->
+	<!-- H         H	E	          L             L                O     O       !     -->
+	<!-- H         H	E	          L             L               O       O      !     -->
+	<!-- H         H	E	          L             L              O         O     !     -->
+	<!-- HHHHHHHHHHH	EEEEEEEEEE    L             L             O           O    !     -->
+	<!-- H         H	E             L             L              O         O     !     -->
+	<!-- H         H	E             L             L               O       O      !     -->
+	<!-- H         H	E             L             L                O     O       !     -->
+	<!-- H         H	E             L             L                 O   O              -->
+	<!-- H         H	EEEEEEEEEE    LLLLLLLLLL    LLLLLLLLLL         OOO         O     -->
+	<!--																				 -->
+	<!--					I'm available to work, 										 -->
+	<!-- 		if you're interested, send me a message at nicolas5789@gmail.com         -->
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Portfolio, présentation Nicolas Chaperon Développeur web, développement web, création de sites internet"/>
+	<meta name="keywords" content="Portfolio, présentation Nicolas Chaperon Développeur web, développement web, création de sites internet, front-end, backend,"/>
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:url" content="https://www.nicolaschaperon.fr"/>
+	<meta name="site" content="@nicolaschaperon.fr"/>
+	<meta property="og:title" content="Nicolas Chaperon"/>
+	<meta property="og:description" content="Web Development - Nicolas Chaperon"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="https://www.nicolaschaperon.fr/public/images/photo_nc.png"/>
+	<meta property="og:url" content="nicolaschaperon.fr"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 	<title>Web Development - Nicolas Chaperon</title>
