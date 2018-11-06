@@ -26,23 +26,23 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-			<a class="navbar-brand">Sail the web</a>
+			<a class="navbar-brand">Nicolas Chaperon</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Accueil</a>
+						<a class="nav-link" href="#">Hello !</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link">Présentation</a>
+						<a class="nav-link" href="#ancre_skills">Qui suis-je ?</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" >Réalisations</a>
+						<a class="nav-link" href="#ancre_works">Réalisations</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link">Contact</a>
+						<a class="nav-link" href="#ancre_contact">Contact</a>
 					</li>
 				</ul>
 			</div>

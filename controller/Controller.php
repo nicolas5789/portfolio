@@ -31,6 +31,6 @@ abstract class Controller
 		} else {
 			$_SESSION["mail_alert"] = "Tous les champs doivent être remplis";
 		}
-		header("Location: index.php?action=home");
+		header("Location: index.php?action=home#ancre_contact");
 	}
 }

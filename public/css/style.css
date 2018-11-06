@@ -28,6 +28,13 @@ nav {
 nav a {
 	color: white;
 }
+#ancre_skills, #ancre_works, #ancre_contact {
+	position: relative;
+	bottom: 57px;
+}
+
+/* Section Hello */
+
 #visual_hello {
 	padding: 0;
 }
@@ -104,7 +111,7 @@ nav a {
 	position: relative;
 	width: 68%;
 	left: 19px;
-	top: 2px;
+	top: 3px;
 }
 #logo_sql {
 	position: relative;
@@ -194,6 +201,9 @@ input, textarea {
 textarea {
 	height: 300px;
 }
+.important {
+	color: red;
+}
 #media {
 	display: flex;
 	flex-direction: column;
@@ -215,10 +225,20 @@ textarea {
 	position: relative;
 	left: -11px;
 }
+@media all and (max-width: 767px) {
+	#logo-cv {
+		left: 0px;
+	}
+	}
 #media a {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+@media all and (max-width: 767px) {
+	#ending_message {
+		margin: 0 10px 0 10px;
+	}
+} 
 /* Section footer */
 
 footer {

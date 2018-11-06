@@ -25,6 +25,8 @@
 		</div>	
 	</section>
 
+	<div id="ancre_skills"> </div>
+
 	<section id="skills">
 		<h1>Skills</h1>
 		<div class="container">
@@ -66,19 +68,21 @@
 		</div>
 	</section>
 
+	<div id="ancre_works"> </div>
+
 	<section id="works">
 		<h1>Works</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12"><h3>Webagency</h3></div>
 				<div class="col-md-4">
-					<img src="public/images/webagency.png">
+					<a href="http://www.sailtheweb.com" onclick="window.open(this.href); return false;"><img src="public/images/webagency.png"></a>
 				</div>
 				<div class="col-md-8">
 					<p>Webagency : Intégration responsive d'un design prédéfini pour une agence web. <br>
 					Mise en place d'un code "pixel perfect".<br> 
-					Lien Git Hub<br>
-					Lien du Site HTML5 / CSS3</p>
+					Lien Github<br>
+					HTML5 / CSS3 / W3C</p>
 				</div>
 			</div>
 			<div class="row">
@@ -86,37 +90,36 @@
 				<div class="col-md-8">
 					<p>Ot-strasbourg : Réalisation d'un support web personnalisée pour l'office du tourisme de Strasbourg via le CMS WordPress. Module de SEO simplifié pour l'utilisateur. Intégration d'un module de réservation back et front.<br> 
 					Design full responsive.<br> 
-					Lien du site<br> 
-					Logo de WordPress</p> 
+					Lien GitHub<br> 
+					WordPress / W3C / SEO</p> 
 				</div>
 				<div class="col-md-4">
-					<img src="public/images/ot-strasbourg.png">
+					<a href="http://www.ot-strasbourg.sailtheweb.com" onclick="window.open(this.href); return false;"><img src="public/images/ot-strasbourg.png"></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12"><h3>Les aventures de Jean</h3></div>
 				<div class="col-md-4">
-					<img src="public/images/blog_jean.png">
+					<a href="http://www.lesaventuresdejean.sailtheweb.com" onclick="window.open(this.href); return false;"><img src="public/images/blog_jean.png"></a>
 				</div>
 				<div class="col-md-8">
 					<p>Les aventures de Jean : Création d'un blog fictif pour le compte d'un reporter.<br> 
-					Mise en place d'une administration sécurisée et sans codage pour l'utilisateur via un WYSIWYG. <br>
-					Lien du blog<br> 
+					Mise en place d'une administration sécurisée et sans codage pour l'utilisateur via un WYSIWYG. <br> 
 					Lien GitHub<br> 
-					Logo PHP JS HTML CSS</p>
+					HTML / CSS / Javascript / PHP</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12"><h3>Le coin des nounous</h3></div>
 				<div class="col-md-8">
 					<p>Le coin des nounous : Concrétisation d'une idée d'application web utile aux jeunes parents dans leurs recherches de solutions de garde par département. Mise en relation des parents et des nounous en fonction des critères, du secteur et des avis partagés. <br>
-					Visuel temporaire, design en cours de réalisation. (Police différente) <br>
+					<span style="font-style: italic;">Visuel temporaire, design en cours de réalisation.</span> <br>
 					Lien gitHub<br>
-					Logo HTML CSS JS PHP 
+					HTML / CSS / Javascript / PHP
 				</p>
 				</div>
 				<div class="col-md-4">
-					<img src="public/images/le_coin_des_nounous.png">
+					<a href="http://www.lecoindesnounous.sailtheweb.com" onclick="window.open(this.href); return false;"><img src="public/images/le_coin_des_nounous.png"></a>
 				</div>
 			</div>
 			<div class="row">
@@ -125,13 +128,15 @@
 					<img src="public/images/iNav.png">
 				</div>
 				<div class="col-md-8">
-					<p>Nav : Outils d'aide à l'exploitation opérationnelle d'une flotte fluviale, autant côté management que navigation.<br> Projet en cours de prototypage. <br>
+					<p>Nav : Outils d'aide à l'exploitation opérationnelle d'une flotte fluviale, autant côté management que navigation.<br> <span style="font-style: italic;">Projet en cours de prototypage.</span> <br>
 					HTML CSS JS PHP</p>
 				</div>
 			</div>
 
 		</div>
 	</section>
+
+	<div id="ancre_contact"> </div>
 
 	<section id="contact">
 		<h1>Contact</h1>
@@ -153,7 +158,7 @@
 						</tr>
 						<?php if(isset($_SESSION["mail_alert"])) { ?>
 						<tr>
-							<td><p><?= $_SESSION["mail_alert"] ?></p></td>
+							<td><p class="important"><?= $_SESSION["mail_alert"] ?></p></td>
 						</tr>	
 						<?php } ?>
 					</table>
@@ -161,13 +166,13 @@
 			</div>
 			<div id="ending_message" class="col-md-6">
 				<p>Pour m'envoyer un message, remplissez le formulaire ou alors contacter moi directement par mail : </p>
-				<p>nicolas5789@gmail.com</p>
+				<p class="important">nicolas5789@gmail.com</p>
 				<p>Vous pouvez également découvrir une partie de mes codes, mon profil LinkedIn ou télécharger mon CV juste en dessous.<br>
 				A bientôt !</p>
 				<div id="media">
-					<a href=""><img id="linkedin" src="public/images/LinkedIn.png"></a>
-					<a href=""><img id="github" src="public/images/GitHub.png"></a>
-					<a href=""><img id="logo-cv" src="public/images/logo-cv.png"></a>
+					<a href="https://www.linkedin.com/in/nicolas-chaperon-8670b3a8/" onclick="window.open(this.href); return false;"><img id="linkedin" src="public/images/LinkedIn.png" alt="logo-linkedIn"></a>
+					<a href="https://github.com/nicolas5789" onclick="window.open(this.href); return false;"><img id="github" src="public/images/GitHub.png"></a>
+					<a href="../public/CV-Nicolas_Chaperon.pdf" onclick="window.open(this.href); return false;"><img id="logo-cv" src="public/images/logo-cv.png"></a>
 				</div>
 
 			</div>
