@@ -28,6 +28,7 @@
 	<meta property="og:type" content="website"/>
 	<meta property="og:image" content="https://www.nicolaschaperon.fr/public/images/photo_nc.png"/>
 	<meta property="og:url" content="nicolaschaperon.fr"/>
+	<link rel="icon" type="image/png" href="public/images/favicon.png" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 	<title>Web Development - Nicolas Chaperon</title>
@@ -63,7 +64,7 @@
 
 
 	<footer>
-		<p>Nicolas Chaperon - Tous droits réservés - Développement et design crées par mes soins</p>
+		<p>2018 - Nicolas Chaperon - Tous droits réservés - Développement et design créés par mes soins</p>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
