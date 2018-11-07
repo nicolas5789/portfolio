@@ -6,7 +6,7 @@
 				<div class="col-md-6">
 					<p id="description_job">Web <span>Development</span></p>
 					<p id="description_name"><span>Nicolas </span>Chaperon</p>
-					<button type="button" class="btn btn-danger">Découvrir</button>
+					<a href="#ancre_skills"><button type="button" class="btn btn-danger">Découvrir</button></a>
 				</div>
 			</div>
 
